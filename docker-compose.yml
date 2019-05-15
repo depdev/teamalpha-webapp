@@ -10,7 +10,7 @@ services:
         restart: always
         environment:
           - MYSQL_ROOT_PASSWORD=.teamalpha.
-          - MYSQL_DATABASE=teamhalpha_db
+          - MYSQL_DATABASE=teamalpha_db
           - MYSQL_USER=db_user
           - MYSQL_PASSWORD=.mypwd.
         ports:
