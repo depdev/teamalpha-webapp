@@ -2,7 +2,7 @@
 session_start();
 
 $conn = mysqli_connect(
-  'mysql_db',
+  'mysql',
   'root',
   '.teamalpha.',
   'teamalpha_db'
